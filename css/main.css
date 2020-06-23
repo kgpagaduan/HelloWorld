@@ -2,31 +2,48 @@ body {
   background: #33568f;
 }
 
-.flexcontainer {
+#helloworldcontainer{
+	color: white;
+	font-size: 10em;
+	font-family: "Franklin Gothic";
+	text-shadow: 5px 5px 5px #243d66;
+	text-align: center;
+	height: 50%;
+}
+
+#flexcontainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 50%;
 }
 
-#button {
+#clickme {
+  display: block;
+}
+
+#clear {
+  display: none;
+}
+
+button {
   height: 75px;
   width: 150px;
   border-radius: 5px;
   border: 1px solid #961e3a;
   box-shadow: 5px 5px 5px #243d66;
   cursor: pointer;
-  font-family: "Century Gothic";
+  font-family: "Franklin Gothic";
   font-size: 1.2em;
   color: white;
   background: #cc274d;
 }
 
-#button:active {
+button:active {
   background: #961e3a;
   border: 1px solid #75162c;
 }
 
-#button:focus {
+button:focus {
   outline: none;
 }
