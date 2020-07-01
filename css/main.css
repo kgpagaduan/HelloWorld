@@ -1,12 +1,8 @@
-body {
-  background: #33568f;
-}
-
 #helloworldcontainer{
-	color: white;
+	color: #525252;
 	font-size: 10em;
-	font-family: "Franklin Gothic";
-	text-shadow: 5px 5px 5px #243d66;
+  font-family: "Montserrat";
+  font-weight: bold;
 	text-align: center;
 	height: 50%;
 }
@@ -29,14 +25,33 @@ body {
 button {
   height: 75px;
   width: 150px;
-  border-radius: 5px;
-  border: 1px solid #961e3a;
-  box-shadow: 5px 5px 5px #243d66;
+  border-radius: 40px;
+  border: 1pt solid #3b3b3b;
   cursor: pointer;
-  font-family: "Franklin Gothic";
+  font-family: "Montserrat";
+  font-weight: bold;
   font-size: 1.2em;
-  color: white;
-  background: #cc274d;
+  color: black;
+  background: #e6e6e6;
+}
+
+button:hover{
+  animation: btn-animate 0.25s ease-in-out 0s 1 both;
+
+}
+
+@keyframes btn-animate {
+  0% {
+    color: black;
+    background: #e6e6e6;
+    border: 1pt solid #3b3b3b;
+  }
+
+  100% {
+    color: white;
+    background: #b12545;
+    border: 1pt solid #961e3a;
+  }
 }
 
 button:active {
